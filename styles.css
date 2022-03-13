@@ -39,6 +39,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     margin: 0 40px;
 }
@@ -242,7 +243,7 @@ textarea.genrated-code {
 }
 
 textarea.genrated-code.expand {
-    max-height: 250px;
+    max-height: 200px;
     opacity: 1!important;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -273,7 +274,6 @@ textarea.genrated-code::-webkit-scrollbar-track {
 .footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
     display: flex;
     justify-content: center;
     padding: 5px 0;
@@ -291,6 +291,7 @@ textarea.genrated-code::-webkit-scrollbar-track {
     font-size: 15px;
     padding: 30px 15px;
     justify-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 991px) {
